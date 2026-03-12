@@ -17,6 +17,14 @@
     transition: 0.3s ease; 
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
+section {
+    scroll-margin-top: 100px;
+}
+
 body { 
     background-color: var(--bg); 
     color: var(--txt); 

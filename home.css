@@ -114,7 +114,6 @@ section {
     font-weight: bold; 
     border: 2px solid var(--acc); 
     cursor: pointer; 
-    margin-top: 1rem; 
 }
 
 .btn-pri { 
@@ -125,7 +124,6 @@ section {
 .btn-sec { 
     background: transparent; 
     color: var(--acc); 
-    margin-left: 10px; 
 }
 
 .btn:hover { 
@@ -201,6 +199,10 @@ section {
     box-shadow: 0 8px 15px rgba(16, 185, 129, 0.2); 
 }
 
+.card-hover:hover h3{
+    color: var(--acc);
+} 
+
 /* Cards de Projetos */
 .card-hover img { 
     width: 100%; 
@@ -213,6 +215,18 @@ section {
     display: flex; 
     flex-direction: column; 
     flex: 1; 
+}
+
+.btns-container {
+    display: flex;
+    height: 32px;
+    gap: 10px;
+    margin-top:auto;
+    
+}
+
+.btns-container a {
+    height: 100%;
 }
 
 /* Footer */
